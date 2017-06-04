@@ -35,3 +35,11 @@ curl -X GET \
   http://localhost:8080/api/current-date \
   -H 'Accept: application/json'
 ```
+
+## Targeting the API with Postman
+
+Alternatively to cURL, you can use [Postman][] to target the REST API. The Postman files are available in the [`postman`][postman GitHub directory] directory.
+
+
+[Postman]: https://www.getpostman.com/
+[postman GitHub directory]: https://github.com/cassiomolin/spring-jersey/tree/master/postman
