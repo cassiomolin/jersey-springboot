@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cassiomolin</groupId>
-    <artifactId>example</artifactId>
+    <artifactId>spring-jersey</artifactId>
     <version>1.0</version>
 
     <properties>
