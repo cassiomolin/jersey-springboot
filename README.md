@@ -28,7 +28,7 @@ curl -X GET \
   -H 'Accept: text/plain'
 ```
 
-### Get current date
+### Get the current date
 
 ```bash
 curl -X GET \
