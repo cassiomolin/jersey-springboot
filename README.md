@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cassiomolin/spring-jersey.svg?branch=master)](https://travis-ci.org/cassiomolin/spring-jersey)
+
 # spring-jersey
 
 Sample application with Spring, Jersey and Jackson.
