@@ -1,5 +1,6 @@
 package com.cassiomolin.example.api.resources;
 
+import com.cassiomolin.example.api.providers.ObjectMapperProvider;
 import com.cassiomolin.example.api.resources.CurrentDateResource.CurrentDateDetails;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,7 +31,7 @@ public class CurrentDateResourceTest {
     @Before
     public void setUp() throws Exception {
         this.uri = new URI("http://localhost:" + port + "/api");
-        this.client = ClientBuilder.newClient();
+        this.client = ClientBuilder.newBuilder().register(ObjectMapperProvider.class).build();
     }
 
     @Test
