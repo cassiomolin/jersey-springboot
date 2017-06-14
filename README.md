@@ -1,8 +1,8 @@
+# REST API using Spring Boot and Jersey
+
 [![Build Status](https://travis-ci.org/cassiomolin/spring-jersey.svg?branch=master)](https://travis-ci.org/cassiomolin/spring-jersey)
 
-# spring-jersey
-
-Sample application with Spring, Jersey and Jackson.
+This sample application demonstrates how to create a REST API using Spring Boot, Jersey and Jackson.
 
 ## How to build and run this application?
 
