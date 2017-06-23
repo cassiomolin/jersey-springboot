@@ -3,11 +3,11 @@
 [![Build Status](https://travis-ci.org/cassiomolin/example-springboot-jersey.svg?branch=master)](https://travis-ci.org/cassiomolin/example-springboot-jersey)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cassiomolin/example-springboot-jersey/master/LICENSE.txt)
 
-This sample application demonstrates how to create a REST API using:
+This example application demonstrates how to create a REST API using:
 
- - Spring Boot
- - Jersey
- - Jackson
+ - **Spring Boot:** Framework for creating standalone Java applications
+ - **Jersey:** JAX-RS reference implementation for creating RESTful web services in Java
+ - **Jackson:** JSON parser for Java
 
 ## How to build and run this application?
 
