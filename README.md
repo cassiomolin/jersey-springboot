@@ -5,9 +5,9 @@
 
 This example application demonstrates how to create a REST API using:
 
- - **Spring Boot:** Framework for creating standalone Java applications
- - **Jersey:** JAX-RS reference implementation for creating RESTful web services in Java
- - **Jackson:** JSON parser for Java
+ - **Spring Boot:** Framework for creating standalone Java applications.
+ - **Jersey:** JAX-RS reference implementation for creating RESTful web services in Java.
+ - **Jackson:** JSON parser for Java.
 
 ## How to build and run this application?
 
