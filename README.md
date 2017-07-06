@@ -31,7 +31,7 @@ This application provides a REST API that currently supports the following opera
 
 ```bash
 curl -X GET \
-  http://localhost:8080/api/greetings \
+  'http://localhost:8080/api/greetings' \
   -H 'Accept: text/plain'
 ```
 
@@ -39,7 +39,7 @@ curl -X GET \
 
 ```bash
 curl -X GET \
-  http://localhost:8080/api/current-date \
+  'http://localhost:8080/api/current-date' \
   -H 'Accept: application/json'
 ```
 
@@ -49,4 +49,4 @@ Alternatively to cURL, you can use [Postman][] to target the REST API. The Postm
 
 
 [Postman]: https://www.getpostman.com/
-[postman GitHub directory]: https://github.com/cassiomolin/spring-jersey/tree/master/postman
+[postman GitHub directory]: https://github.com/cassiomolin/spring-jersey/tree/master/src/main/postman

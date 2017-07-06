@@ -1,5 +1,8 @@
-package com.cassiomolin.example.api.resources;
+package com.cassiomolin.example.currentdate.api.resource;
 
+import com.cassiomolin.example.currentdate.api.model.CurrentDateDetails;
+import com.cassiomolin.example.currentdate.service.CurrentDateService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.GET;
@@ -10,13 +13,16 @@ import javax.ws.rs.core.Response;
 import java.time.ZonedDateTime;
 
 /**
- * Resource class for current date-related operations.
+ * Component that exposes REST endpoints for the current date.
  *
  * @author cassiomolin
  */
 @Component
 @Path("current-date")
 public class CurrentDateResource {
+
+    @Autowired
+    private CurrentDateService currentDateService;
 
     /**
      * Get the current date.
@@ -27,27 +33,11 @@ public class CurrentDateResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getCurrentDate() {
 
-        ZonedDateTime now = ZonedDateTime.now().withNano(0);
+        ZonedDateTime now = currentDateService.getCurrentDate();
 
         CurrentDateDetails currentDateDetails = new CurrentDateDetails();
         currentDateDetails.setCurrentDate(now);
 
         return Response.ok(currentDateDetails).build();
-    }
-
-    /**
-     * API model for returning the current date.
-     */
-    public static class CurrentDateDetails {
-
-        private ZonedDateTime currentDate;
-
-        public ZonedDateTime getCurrentDate() {
-            return currentDate;
-        }
-
-        public void setCurrentDate(ZonedDateTime currentDate) {
-            this.currentDate = currentDate;
-        }
     }
 }
