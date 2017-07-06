@@ -1,6 +1,7 @@
 package com.cassiomolin.example;
 
 
+import com.cassiomolin.example.common.api.provider.ObjectMapperProvider;
 import org.junit.Before;
 import org.springframework.boot.context.embedded.LocalServerPort;
 
@@ -25,6 +26,6 @@ public abstract class AbstractApiTest {
     @Before
     public void setUp() throws Exception {
         this.baseUri = new URI("http://localhost:" + port + "/api");
-        this.client = ClientBuilder.newClient();
+        this.client = ClientBuilder.newClient().register(ObjectMapperProvider.class);
     }
 }
