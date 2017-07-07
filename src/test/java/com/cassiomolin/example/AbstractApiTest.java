@@ -1,6 +1,5 @@
 package com.cassiomolin.example;
 
-
 import com.cassiomolin.example.common.api.provider.ObjectMapperProvider;
 import org.junit.Before;
 import org.springframework.boot.context.embedded.LocalServerPort;

@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "jersey-springboot",
+		"_postman_id": "88e77581-b404-43e7-cd80-860d57061e4e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get current date",
+			"request": {
+				"url": "{{config.baseUrl}}/api/current-date",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get greeting",
+			"request": {
+				"url": "{{config.baseUrl}}/api/greetings",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/plain",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

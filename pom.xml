@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cassiomolin.example</groupId>
-    <artifactId>springboot-jersey</artifactId>
+    <artifactId>jersey-springboot</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -29,19 +29,19 @@
 
     <dependencies>
 
-        <!-- Spring Boot Web Starter -->
+        <!-- Spring Boot starter for web applications -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Jersey -->
+        <!-- Spring Boot starter for Jersey -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jersey</artifactId>
         </dependency>
 
-        <!-- Spring Boot Test -->
+        <!-- Spring Boot starter for tests -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
