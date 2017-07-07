@@ -9,7 +9,7 @@ This example application demonstrates how to create a REST API using:
  - **Jersey:** JAX-RS reference implementation for creating RESTful web services in Java.
  - **Jackson:** JSON parser for Java.
 
-## How to build and run this application?
+## Building and running this application
 
 To build and run this application, follow these steps:
 
@@ -22,7 +22,7 @@ To build and run this application, follow these steps:
 1. Execute the JAR: `java -jar springboot-jersey-1.0.jar`.
 1. The application should be available at `http://localhost:8080/api`.
 
-## What will you find in this application?
+## REST API overview
 
 This application provides a REST API that currently supports the following operations:
 
