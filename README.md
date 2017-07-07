@@ -1,7 +1,7 @@
 # REST API using Spring Boot and Jersey
 
-[![Build Status](https://travis-ci.org/cassiomolin/example-springboot-jersey.svg?branch=master)](https://travis-ci.org/cassiomolin/example-springboot-jersey)
-[![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cassiomolin/example-springboot-jersey/master/LICENSE.txt)
+[![Build Status](https://travis-ci.org/cassiomolin/jersey-springboot.svg?branch=master)](https://travis-ci.org/cassiomolin/jersey-springboot)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cassiomolin/jersey-springboot/master/LICENSE.txt)
 
 This example application demonstrates how to create a REST API using:
 
