@@ -24,8 +24,7 @@ To build and run this application, follow these steps:
 
 ## REST API overview
 
-This application provides a REST API that currently supports the following operations:
-
+See the [curl][] scripts below with the REST API supported operations:
 
 ### Get a greeting
 
@@ -45,7 +44,8 @@ curl -X GET \
 
 ## Targeting the REST API with Postman
 
-Alternatively to cURL, you can use [Postman][] to target the REST API. The Postman files are available in the [`src/main/postman`](src/main/postman) directory.
+Alternatively to [curl][], you can use [Postman][] to target the REST API. The Postman files are available in the [`src/main/postman`](src/main/postman) directory.
 
 
 [Postman]: https://www.getpostman.com/
+[curl]: https://curl.haxx.se/
