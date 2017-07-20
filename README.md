@@ -43,9 +43,9 @@ curl -X GET \
   -H 'Accept: application/json'
 ```
 
-## Targeting the API with Postman
+## Targeting the REST API with Postman
 
-Alternatively to cURL, you can use [Postman][] to target the REST API. The Postman files are available in the [`postman`](src/main/postman) directory.
+Alternatively to cURL, you can use [Postman][] to target the REST API. The Postman files are available in the [`src/main/postman`](src/main/postman) directory.
 
 
 [Postman]: https://www.getpostman.com/
